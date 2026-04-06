@@ -1,0 +1,814 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div 1 */
+
+
+.divbox1{
+    height: 70px;
+    width: auto;
+    background-color: rgb(245, 249, 248);
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    padding-right: 40px;
+}
+.box1{
+    justify-content: space-between;
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+    font-size: 19px;
+}
+.p1{
+    color: rgb(16, 154, 136);
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p1:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 15px;
+}
+.h1:hover{
+    box-shadow: 2px 2px 10px rgb(59, 169, 160);
+    transition: all ease 0.3s;
+    cursor: pointer;
+    scale: 1.1;
+}
+.p2{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2:hover{
+    color: rgb(51, 51, 161);
+    cursor: pointer;
+}
+.b1{
+    text-align: center;
+
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: rgb(103, 200, 248);
+    border: none;
+    color: aliceblue;
+    font-weight: 550;
+
+}
+.b1:hover{
+    transition: all ease 0.3s;
+    color: brown;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+.b1:hover:after {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    transition: all 0.5s;
+}
+.pay{
+    color: rgb(13, 179, 179);
+}
+
+/* divvv 2 */
+
+
+
+
+.divbox2{
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(193, 228, 217);
+    padding-right: 50px;
+    padding-top: 15px;
+}
+.leftdiv{
+    padding-top: 80px;
+    padding-left: 60px;
+    
+
+}
+
+
+.p22{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1{
+    height: auto;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 13px;
+    background-color: aliceblue;
+    
+}
+.img1:hover{
+    transition: all ease 0.3s;
+    scale: 0.9;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+.imghome{
+   height: 100%;
+   width: 100%;
+   border: none;
+   border-radius: 40px;
+
+}
+
+.db2{
+    background-color: rgb(171, 242, 218);
+    color: rgb(67, 168, 168);
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 130px;
+   
+}
+.db2:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+    color: blue;
+    cursor: pointer;
+}
+.simple{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.digi{
+    color: rgb(62, 165, 165);
+   
+}
+.db3{
+  height: 40px;
+  width: 190px;
+  background-color: rgb(65, 223, 223);
+  color: aliceblue; 
+  border-radius: 40px; 
+  border: none;
+}
+.db3:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+.p3{
+    height: 40px;
+    width: 120px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    border-color: aqua;
+    color: aqua;
+    margin-left: 15px;
+    
+}
+.p3:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+.db4{
+    background-color: rgb(170, 226, 207);
+    color: rgb(67, 168, 168);
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 130px;
+}
+.db4:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+    color: blue;
+}
+
+.simple2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment{
+    color: rgb(28, 159, 115);
+}
+.div3{
+    padding-top: 30px;
+}
+
+/* divv 3 */
+.divbox3{
+    background-color: rgb(193, 228, 217);
+    height: 230px;
+}
+/* divv 4 */
+.divbox4{
+    height: 350px;
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(193, 228, 217);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+   
+    
+}
+.div4{
+    background-color: rgb(179, 223, 223);
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-top: 35px;
+
+}
+.div4:hover{
+    transition: all ease 0.4s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+.db5{
+    height: 55px;
+    width: 55px;
+    border-radius: 12px;
+    background-color: rgb(0, 164, 164);
+    border: none;
+}
+.db5:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+
+.p45{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.pppp{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p46{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.pp{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.simple3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment1{
+    color: rgb(28, 159, 115);
+}
+.div5{
+    padding-top: 30px;
+}
+
+/* divvvv 5 */
+.divbox5{
+    background-color: rgb(193, 228, 217);
+    height: 230px;
+}
+.dbb6{
+    background-color: rgb(170, 226, 207);
+    color: rgb(67, 168, 168);
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 130px;
+}
+.dbb6:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+    color: blue;
+}
+
+/* divvv 6 */
+
+.divbox6{
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(193, 228, 217);
+    padding-right: 40px;
+}
+.imghome1{
+    
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+border: none;
+}
+.img2{
+    height: auto;
+    width: 320px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 13px;
+    background-color: aliceblue;
+}
+
+.img2:hover{
+    transition: all ease 0.3s;
+    scale: 0.9;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+.leftdiv6{
+    padding-top: 250px;
+    padding-left: 80px;
+
+}
+.simple4{
+    color: rgb(20, 208, 208);
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.digi1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.simple6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.divbox7{
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(193, 228, 217);
+    padding-left: 40px;
+}
+.imghome2{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+border: none;
+}
+.img3{
+    height: auto;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 13px;
+    background-color: aliceblue;
+}
+
+.img3:hover{
+    transition: all ease 0.3s;
+    scale: 0.9;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+.leftdiv7{
+    padding-top: 250px;
+    padding-right: 80px;
+    
+
+}
+.simple4{
+    color: rgb(20, 208, 208);
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.digi1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.simple6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.divbox8{
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(193, 228, 217);
+    padding-right: 40px;
+}
+.imghome3{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+border: none;
+}
+.img4{
+    height: auto;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 13px;
+    background-color: aliceblue;
+}
+
+.img4:hover{
+    transition: all ease 0.3s;
+    scale: 0.9;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+.leftdiv8{
+    padding-top: 250px;
+    padding-left: 80px;
+
+}
+.simple4{
+    color: rgb(20, 208, 208);
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.digi1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.simple6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.divbox9{
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(193, 228, 217);
+    padding-left: 30px;
+}
+.imghome4{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+border: none;
+}
+.img5{
+    height: auto;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 13px;
+    background-color: aliceblue;
+}
+
+
+.img5:hover{
+    transition: all ease 0.3s;
+    scale: 0.9;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+.leftdiv9{
+    padding-top: 250px;
+    padding-right: 80px;
+    
+
+}
+.simple4{
+    color: rgb(20, 208, 208);
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.digi1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.simple6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* divvvv 10 */
+
+.divbox10{
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(95, 220, 226);
+    padding-right: 30px;
+}
+.leftdiv10{
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+.imghome10{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+border: none;
+}
+.img10{
+    height: auto;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 13px;
+    background-color: aliceblue;
+    
+
+}
+
+.img10:hover{
+    transition: all ease 0.3s;
+    scale: 0.9;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+
+.db210{
+    background-color: rgb(144, 217, 193);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    height: 28px;
+    width: 150px;
+   
+}
+
+.db210:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+    color: blue;
+}
+.simple10{
+    color: aliceblue;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.digi10{
+    color: rgb(254, 254, 254);
+   
+}
+.p222{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sunny{
+    color: aliceblue;
+}
+
+/* .......icon ka color  kaise change  */
+.db10{
+  height: 42px;
+  width: 180px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 185, 198); 
+  border-radius: 15px; 
+  border: none;
+  font-weight: bold;
+}
+
+.db10:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+.p3{
+    height: 40px;
+    width: 120px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    border-color: aqua;
+    color: aqua;
+}
+
+
+/* divvv11 */
+.divbox11{
+    height: 350px;
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(5, 12, 38);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+   
+    
+}
+.div11{
+    background-color: rgb(5, 12, 38);
+    height: 350px;
+    width: 270px;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-top: 35px;
+
+}
+.p455{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.mon{
+    color: aliceblue;
+}
+.p466{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: aliceblue;
+}
+.p467{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.p467:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.db111{
+    height: 40px;
+    width: 240px;
+    border-radius: 12px;
+    background-color: rgb(50, 197, 197);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: none;
+
+}
+
+.db111:hover{
+    transition: all ease 0.3s;
+    scale: 1.1;
+    box-shadow: 2px 2px 10px rgb(87, 91, 91);
+}
+
+
+.p46668{
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.p46668:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.divbox12{
+    height: 90px;
+    width: auto;
+    background-color: rgb(5, 12, 38);
+    justify-content: space-between;
+    display: flex;
+    
+   
+   
+}
+.p12{
+    padding-top: 17px;
+    padding-right: 14px;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: rgb(5, 12, 38);
+}
+
+
+
+
+   /* media query......... */
+   @media (max-width:650px){ 
+
+
+    .p1{
+        display: none;
+    }
+    .p2{
+        display: none;
+    }
+    .db2{
+     margin-bottom: 10px;
+    }
+    .db3{
+        margin-bottom: 15px;
+    }
+    
+    .simple{
+        font-size: 28px;
+    }
+    .img1{
+         height: 450px;
+    width: 400px;
+    margin-top: 30px;
+    }
+  .divbox4{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+
+  }
+  .img2{
+         height: 380px;
+    width: 550px;
+    margin-top: 150px;
+    }
+ 
+    .img3{
+         height: 380px;
+    width: 550px;
+    margin-top: 150px;
+    }
+    
+    .img4{
+         height: 380px;
+    width: 550px;
+    margin-top: 150px;
+    }
+
+    .img5{
+         height: 390px;
+    width: 450px;
+    margin-top: 150px;
+    }
+
+    .img10{
+         height: 380px;
+    width: 470px;
+    margin-top: 150px;
+    }
+
+    .simple10{
+        font-size: 35px;
+    }
+
+    .divbox11{
+        
+        
+        
+    }
+    .p455{
+        display: none;
+    }
+    .p467{
+        display: none;
+    }
+    .p46668{
+        display: none;
+    }
+    .db111{
+        width: 200px;
+        margin-top: 50px;
+    }
+
+
+   }
